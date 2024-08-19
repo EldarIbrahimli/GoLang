@@ -1,0 +1,12 @@
+1.Understand Alghorithms.
+2.Lear Alghorithms.
+3.Further Learn github and VScode.
+4.Learn what is Code Versioning, GitHub and git.
+5.Learn Code Review.
+6.Learn the Toolbar.
+7.Learn about Stakeholders, story, pruduct and task.
+8.Explore and install Linux/Ubuntu.
+9.What is Dockerand, Kubernetes and Container.
+10.How to behave in an Interview.
+11.The ability to learn by myself.
+12.Learn about API, APP, RestfulAPI, Database, MSSQL, SQL and Postgre
