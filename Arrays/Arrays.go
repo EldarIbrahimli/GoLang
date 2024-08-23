@@ -1,5 +1,7 @@
 package main
 
+//import "fmt"
+
 func main() {
 
 	// var arr1 = [5]int{10, 20, 30, 40, 50} // an array with integers with a lenght and capacity of 5
@@ -34,5 +36,7 @@ func main() {
 	// fmt.Println(slc1) // prints a slice, also works with an array
 
 	// fmt.Println("The capacity of this slice is:", "", cap(slc1)) // prints the capacity of the slices
+
+	// fmt.Println("The lenght of this slice is:", "", len(slc1))
 
 }
