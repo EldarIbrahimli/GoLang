@@ -19,3 +19,27 @@ func main() {
 	fmt.Println("I need", number, "of", color, "peppers") // printed the functions
 
 }*/
+
+/*package main
+import ("fmt")
+
+func myFunction(x int, y int) (result int) {
+  result = x + y
+  return result
+}
+
+func main() {
+  total := myFunction(1, 2)
+  fmt.Println(total)
+}*/
+
+/*package main
+import ("fmt")
+
+func myFunction(x int, y int) int {
+  return x + y
+}
+
+func main() {
+  fmt.Println(myFunction(1, 2))
+}*/

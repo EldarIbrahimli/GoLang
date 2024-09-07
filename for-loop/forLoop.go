@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 
 	/* for i := 0; i <= 5; i++ { // create an i integer variable, if the variable is less than or equal to  5, add 1
@@ -48,5 +50,28 @@ func main() {
 	// for _, val := range fruits { // prints without index, can be also used for value
 	// 	fmt.Printf("%v\n", val) // prints just the value of an array
 	// }
+
+	z := 0
+	n := 2
+
+	for i := 1; i <= n; i++ {
+
+		fmt.Println("I is equal to", i)
+
+		for j := 1; j <= n; j++ {
+
+			fmt.Println("\t j is equal to", j)
+
+			for k := 1; k <= n; k++ {
+
+				fmt.Println("\t\t k is equal to", k)
+
+				z++
+
+			}
+		}
+	}
+
+	fmt.Println("z is equal to", z)
 
 }
