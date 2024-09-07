@@ -51,7 +51,7 @@ func main() {
 	// 	fmt.Printf("%v\n", val) // prints just the value of an array
 	// }
 
-	z := 0
+	/*z := 0
 	n := 2
 
 	for i := 1; i <= n; i++ {
@@ -73,5 +73,21 @@ func main() {
 	}
 
 	fmt.Println("z is equal to", z)
-
+	*/
+	/*for x := 1; x <= 3; x++{
+	  	fmt.Println(x)
+	  }
+	  for (x := 1; x <= 3; x++{ // adding parantheless after for is not allowed
+	  	fmt.Println(x))
+	  }
+	  for x := 1; x = 3; x++{ // will only go up to 2
+	  	fmt.Println(x)
+	  }
+	  for x := 1; x <= 3; x++{ // not in the scope of for so will just print the initial number of x
+	  }
+	  fmt.Println(x)
+	*/
+	for x := 1; x >= 3; x++ {
+		fmt.Println(x)
+	}
 }
