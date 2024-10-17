@@ -12,19 +12,7 @@ func main() {
 
 		sum += i
 
-		count := 5 - i
-
-		fmt.Println(sum)
-
-		if count > 0 {
-
-			fmt.Println("there are", count, "more numbers")
-
-		} else {
-
-			fmt.Println("that is all!")
-
-		}
 	}
+	fmt.Println(sum)
 
 }

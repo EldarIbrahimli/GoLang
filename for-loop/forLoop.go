@@ -87,7 +87,21 @@ func main() {
 	  }
 	  fmt.Println(x)
 	*/
-	for x := 1; x >= 3; x++ {
+	/*for x := 1; x >= 3; x++ {
 		fmt.Println(x)
+	}*/
+	n := 2
+
+	for i := 1; i <= n; i++ {
+
+		for j := 1; j <= n; j++ {
+
+			for k := 1; k <= n; k++ {
+				fmt.Println(i)
+			}
+
+		}
+
 	}
+
 }
