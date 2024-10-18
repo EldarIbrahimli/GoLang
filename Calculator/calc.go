@@ -57,6 +57,7 @@ func main() {
 			continue
 		}
 
-		fmt.Printf("Result: %v\n", result)
+		fmt.Printf("Result: %.2f\n", result) // the f does not let the program output scientific response
+		//fmt.Printf("Result: %v\n", result)
 	}
 }
