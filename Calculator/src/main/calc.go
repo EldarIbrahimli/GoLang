@@ -17,7 +17,7 @@ func main() {
 		fmt.Print("> ")
 		input, err := reader.ReadString('\n')
 		if err != nil {
-			fmt.Println("Error:", err)
+			fmt.Println("Error, type the correct value:", err)
 			continue
 		}
 		// ASK: Why does $ exit not work with that
@@ -38,22 +38,9 @@ func main() {
 			continue
 		}
 
-		var result float64
-		switch operator {
-		case "+":
-			result = num1 + num2
-		case "-":
-			result = num1 - num2
-		case "*":
-			result = num1 * num2
-		case "/":
-			if num2 == 0 {
-				fmt.Println("Error: Division by zero.")
-				continue
-			}
-			result = num1 / num2
-		default:
-			fmt.Println("Invalid operator. Supported operators are +, -, *, /.")
+		result, err := calculate(num1, operator, num2)
+		if err != nil {
+			fmt.Println(err)
 			continue
 		}
 
