@@ -1,8 +1,8 @@
 package main
 
-import "greeting"
+import "test/greeting"
 
 func main() {
-	greeting.Hello
-	greeting.Hi
+	greeting.Hello()
+	greeting.Hi()
 }
