@@ -1,5 +1,3 @@
-module github.com
+module github.com/EldarIbrahimli/GoLang/packages/go
 
 go 1.23.0
-
-require github.com/EldarIbrahimli/GoLang v0.0.0-20241020073709-d2500d5080c1
