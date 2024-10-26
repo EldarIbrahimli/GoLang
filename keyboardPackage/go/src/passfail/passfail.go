@@ -3,8 +3,9 @@ package main
 
 import (
 	"fmt"
-	"keyboard"
 	"log"
+
+	"github.com/EldarIbrahimli/GoLang/tree/Testing/keyboardPackage/go/src/keyboard"
 )
 
 func main() {
