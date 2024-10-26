@@ -1,6 +1,6 @@
 package main
 
-import "test/greeting"
+import "github.com/EldarIbrahimli/GoLang/packages/go/src/greeting"
 
 func main() {
 	greeting.Hello()

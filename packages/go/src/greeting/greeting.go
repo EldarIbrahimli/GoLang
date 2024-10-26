@@ -2,13 +2,10 @@ package greeting
 
 import "fmt"
 
-func Hello(){
-
+func Hello() {
 	fmt.Println("Hello")
-
 }
-func Hi(){
 
+func Hi() {
 	fmt.Println("Hi")
-
 }
