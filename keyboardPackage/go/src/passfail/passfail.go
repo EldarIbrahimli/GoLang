@@ -1,4 +1,3 @@
-// Image 2
 package main
 
 import (

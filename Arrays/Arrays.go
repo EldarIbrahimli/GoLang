@@ -6,6 +6,20 @@ func main() {
 
 	// var arr1 = [5]int{10, 20, 30, 40, 50} // an array with integers with a lenght and capacity of 5
 
+	// var arr1 [5]int
+	//arr1[0] = 5
+	//arr1[2] = 3
+	//arr1[3]++ // adds 1 to the initial value af an element in the array which is 0
+
+	//var arr2 [5]string
+	//arr2[0] = "Hello"
+	//fmt.Println(arr2[0]) // prints hello
+	//fmt.Println(arr2[1]) // prints an empty string
+	//fmt.Println(arr2[2]) // prints an empty string
+	//for i := 0; i <= 7; i++{
+	//	fmt.Println(i, arr2[i])
+	//}
+
 	// var arr2 = [5]string{"Alien", "Stanley", "Stephen", "Alan", "Rookie"} // an array with strings
 
 	// var arr3 = [5]int{} // an empty array
