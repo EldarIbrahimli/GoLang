@@ -1,8 +1,8 @@
 package main
 
-import "greeting"
+import "github.com/EldarIbrahimli/GoLang/packages/go/src/greeting"
 
 func main() {
-	greeting.Hello
-	greeting.Hi
+	greeting.Hello()
+	greeting.Hi()
 }
